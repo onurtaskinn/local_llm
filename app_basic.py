@@ -24,7 +24,7 @@ def main():
     
     model = st.sidebar.selectbox(
         "Select Model",
-        ["llama3.2:latest", "mistral", "codellama"]  
+        ["llama3.2:latest", "deepseek-r1:1.5b", "codellama"]  
         
     )
         

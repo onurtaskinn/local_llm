@@ -19,7 +19,7 @@ def main():
     if 'messages' not in st.session_state:
         st.session_state.messages = []
     
-    model = st.sidebar.selectbox("Select Model", ["llama3.2:latest", "mistral", "codellama"])
+    model = st.sidebar.selectbox("Select Model", ["llama3.2:latest", "deepseek-r1:1.5b", "codellama"])
     temperature = st.sidebar.slider("Temperature", 0.0, 2.0, 0.7, 0.1)
     
     for message in st.session_state.messages:

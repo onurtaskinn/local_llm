@@ -56,4 +56,3 @@ streamlit run app_streaming.py
 
 - streamlit
 - ollama
-- requests
